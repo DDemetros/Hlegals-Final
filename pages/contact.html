@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/pages/contact.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="../images/Logo-Contact.svg" alt="logo">
+            </a>
+            <div class="header-interactivity">
+                <div class="language">
+                    <a class="lang-text" href="#">УК</a>
+                    <a class="lang-text" href="#">РУ</a>
+                    <a class="lang-text" href="#">EN</a>
+                </div>
+                <div class="contact">
+                    <a class="contact-text" href="#">Одеса, Адміральський пр., 3</a>
+                    <a class="contact-text" href="+38(050)3901595">+38 (050) 390 15 95</a>
+                    <a class="contact-text" href="#"><img src="../images/Facebook.svg" alt="facebook"></a>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <a href="/" class="logo-mobile">
+                    <img class="logo-mobile" src="../images/Logo-Mobile-contact.svg" alt="logo-mobile">
+                </a>
+                <img class="burger-img" src="../images/Hamburger(1).svg" alt="Hamburger">
+            </div>
+            <div class="nav">
+                <a class="nav-text" href="#">о нас</a>
+                <a class="nav-text" href="#">послуги</a>
+                <a class="nav-text" href="./teams.html">команда</a>
+                <a class="nav-text" href="./publications.html">публікації</a>
+                <a class="nav-text" href="./contact.html">контакти</a>
+            </div>
+        </div>
+        <nav id="burger-nav" class="burger-nav">
+            <div class="burger-nav-header">
+                <img class="burger-nav-logo" src="../images/p-small.svg" alt="p-small">
+                <img id="burger-nav-close" class="burger-nav-close" src="../images/close.svg" alt="close">
+            </div>
+            <ul class="burger-nav-list">
+                <li class="burger-nav-item"><a href="#" class="link">о нас</a></li>
+                <li class="burger-nav-item"><a href="#" class="link">послуги</a></li>
+                <li class="burger-nav-item"><a href="./teams.html" class="link">команда</a></li>
+                <li class="burger-nav-item"><a href="./publications.html" class="link">публікації</a></li>
+                <li class="burger-nav-item"><a href="./contact.html" class="link">контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container-1">
+            <div class="contact-content">
+                <div>
+                    <p class="contact-wrapper">Одеса,<br> Адміральський пр., 3</p>
+                </div>
+                <div class="border"></div>
+                <div class="number">
+                    <a class="number-content" href="+38(050)3901595">+38 (050) 390 15 95</a>
+                </div>
+                <div class="email">
+                    <a class="email-content" href="mailto:contact@hlegals.net">contact@hlegals.net</a>
+                </div>
+                <div class="border"></div>
+                <div class="facebook">
+                    <img src="../images/Facebook(2).svg" alt="facebook">
+                    <div class="facebook-info">Наша сторінка <br>в фейсбуці</div>
+                </div>
+            </div>
+            <form class="contact-form" action="#">
+                <div class="form-title">
+                    Ми хотіли б Вам допомогти
+                </div>
+                <input type="text" placeholder="Iм’я">
+                <textarea placeholder="Повідомлення"></textarea>
+                <label>Як вам відповісти?</label>
+                <input type="text" placeholder="Номер телефона">
+                <input type="text" placeholder="Чи email">
+                <button class="button">Надіслати запит</button>
+            </form>
+        </div>
+        <div class="map-wrapper"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11652.661406816569!2d30.715782460714692!3d46.435578959087316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633bcf6677365%3A0x6f001fefad178764!2z0JDQtNC80LjRgNCw0LvRjNGB0LrQuNC5INC_0YDQvtGB0L8uLCAzMywg0J7QtNC10YHRgdCwLCDQntC00LXRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2NTAwMA!5e0!3m2!1sru!2sua!4v1631059232116!5m2!1sru!2sua"
+                width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="maps">
+                    Одеса,Адміральський пр., 3
+                    <a class="info-map" href="#">Подивитися на мапі</a>
+                </div>
+                <div class="copyright">© 2021 ТОВ Юридична компанія «HLEGALS»</div>
+                <div class="contacts-email">
+                    <img class="img-fb" src="../images/Facebook(2).svg" alt="facebook">
+                    <a class="number-footer" href="+38(050)3901591">+38 (050) 390 15 91</a>
+                    <a class="email-contact" href="mailto:contact@hlegals.net">contact@hlegals.net</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/burger.js"></script>
+</body>
+
+</html>

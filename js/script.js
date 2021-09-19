@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $(".about-partner-carusel").slick(
+      {
+        arrows:false,
+        appendDots:$(".carusel"),
+        dots:true
+      }
+    )    
+})
